@@ -82,7 +82,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16171d;
+    --bg: #fff;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -135,14 +135,10 @@ body {
 }
 
 #root {
-  width: 1126px;
+
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  /* border-inline: 1px solid var(--border); */
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
   box-sizing: border-box;
 }
 
@@ -221,8 +217,8 @@ img {
 /*========== Layout ==========*/
 .container{
   max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  padding: 0 1rem;
 }
 
 .grid{
@@ -276,7 +272,10 @@ code {
 
 /* For large devices */
 @media screen and (max-width: 992px) {
-
+  .container{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* For medium devices */
@@ -290,5 +289,8 @@ code {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
