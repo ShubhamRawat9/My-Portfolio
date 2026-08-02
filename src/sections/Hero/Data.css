@@ -1,0 +1,36 @@
+.home-data{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    text-align:left;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    background-color: var(--title-color);
+    color: var(--container-color);
+
+    padding: 0.9rem 1.5rem;
+    border-radius: 0.9rem;
+
+    font-weight: var(--font-medium);
+    font-size: 1rem;
+
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--title-color-dark);
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
