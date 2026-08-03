@@ -4,7 +4,7 @@
 :root {
   --text: #6b6375;
   --text-h: #08060d;
-  --bg: #fff;
+  --bg: #efefef;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -84,7 +84,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #fff;
+    --bg: #efefef;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -197,21 +197,22 @@ img {
 /*========== Reusable Css Classes ==========*/
 .section {
   padding: 6rem 0 2rem;
+  background-color: var(--bg);
 }
 
-.section__title {
+.section-title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section__subtitle {
+.section-subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section__title,
-.section__subtitle {
+.section-title,
+.section-subtitle {
   text-align: center;
 }
 
@@ -290,8 +291,16 @@ code {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  body{
+    margin: 0 0 var(--header-height) 0;
+  }
+  
   .section{
     padding: 2rem 0 4rem;
+  }
+
+  .section-subtitle{
+    margin-bottom: var(--mb-3);
   }
 }
 

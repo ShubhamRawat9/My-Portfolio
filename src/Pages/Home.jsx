@@ -1,5 +1,5 @@
 import Hero from "../sections/Hero/Hero.jsx";
-// import About from '../sections/About/About';
+import About from '../sections/About/About.jsx';
 // import Skills from '../sections/Skills/Skills';
 // import Contact from '../sections/Contact/Contact';
 // import Projects from '../sections/Projects/Projects';
@@ -7,11 +7,13 @@ import Hero from "../sections/Hero/Hero.jsx";
 export default function Home() {
   return (
     <>
-      <Hero />
-      {/* <About />
-      <Skills />
+      <main className="main">
+        <Hero />
+        <About />
+        {/* <Skills />
       <Projects />
       <Contact /> */}
+      </main>
     </>
   );
 }
