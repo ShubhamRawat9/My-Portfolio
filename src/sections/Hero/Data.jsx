@@ -8,7 +8,7 @@ export default function Data() {
                 <h1 className="home-title">Shubham Rawat</h1>
                 <h3 className="home-subtitle">Web Devloper/Software Devloper</h3>
                 <p className="home-description">
-                    Developer crafting Modern Web applications. 
+                    Developer crafting the Modern Web applications. 
                     Passionate about scalable backend systems, intuitive user interfaces, and AI-powered solutions.
                 </p>
 
