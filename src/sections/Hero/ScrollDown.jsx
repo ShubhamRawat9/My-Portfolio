@@ -1,4 +1,5 @@
 import React from 'react'
+import { ArrowDownStroke } from "@boxicons/react";
 
 export default function ScrollDown() {
     return (
@@ -46,7 +47,7 @@ export default function ScrollDown() {
                     </svg>
                     <span className="home-scroll-name">
                         Scroll Down
-                        <i className="uil uil-arrow-down home-scroll-arrow"></i>
+                        <ArrowDownStroke className="home-scroll-arrow"/>
                     </span>
                 </a>
             </div >

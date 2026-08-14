@@ -4,8 +4,7 @@ import Skills from '../sections/Skills/Skills';
 import Service from "../sections/Services/Service.jsx";
 import Qualification from "../sections/Qualification/Qualification.jsx";
 import Work from "../sections/Works/Work.jsx";
-// import Contact from '../sections/Contact/Contact';
-// import Projects from '../sections/Projects/Projects';
+import Contact from '../sections/Contact/Contact';
 
 export default function Home() {
   return (
@@ -17,8 +16,7 @@ export default function Home() {
         <Service />
         <Qualification />
         <Work />
-      {/* <Projects /> 
-      <Contact /> */}
+        <Contact />
       </main>
     </>
   );
