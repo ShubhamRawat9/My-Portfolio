@@ -12,7 +12,7 @@ export default function Data() {
                     Passionate about scalable backend systems, intuitive user interfaces, and AI-powered solutions.
                 </p>
 
-                <a href="#contact" className="button button-flex">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rawatshubham6565@gmail.com" className="button button-flex">
                     Say Hello
                     <svg
                         className="button-icon"
