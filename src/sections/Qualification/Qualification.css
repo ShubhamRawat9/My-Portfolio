@@ -35,12 +35,14 @@
     justify-content: center;
 }
 
-.first-graduation {
-    margin-left: 6rem;
+.first-graduation,
+.second-exp {
+    text-align: right;
 }
 
-.second-exp {
-    margin-left: 8rem;
+.first-graduation .qualification-celender,
+.second-exp .qualification-celender {
+    justify-content: flex-end;
 }
 
 .qualification-content {
@@ -103,20 +105,16 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .qualification-container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
-}
+} */
 
 @media screen and (max-width: 576px) {
     .qualification-sections {
         grid-template-columns: initial;
-    }
-
-    .first-graduation {
-        margin-left: 3rem;
     }
 
     .qualification-button {
@@ -125,16 +123,8 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
     .qualification-data {
         gap: 1.5em;
     }
-
-    .first-graduation {
-        margin-left: 1rem;
-    }
-
-    .second-exp {
-        margin-left: 1rem;
-    }
-}
+} */

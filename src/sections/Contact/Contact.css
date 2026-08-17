@@ -141,4 +141,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .contact-info{
+        grid-template-columns: 1fr;
+    }
 
+    .contact-form{
+        width: 100%;
+    }
+}

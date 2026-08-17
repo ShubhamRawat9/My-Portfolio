@@ -1,10 +1,5 @@
 import { TbBrandLeetcode } from "react-icons/tb";
-import {
-  FiGithub,
-  FiLinkedin,
-  FiInstagram,
-  FiTwitter,
-} from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 export const socialLinks = [
   {
@@ -17,7 +12,7 @@ export const socialLinks = [
     id: 2,
     name: "LinkedIn",
     icon: FiLinkedin,
-    url: "www.linkedin.com/in/shubham-rawat-76a492281",
+    url: "https://www.linkedin.com/in/shubham-rawat-76a492281/",
   },
   {
     id: 3,

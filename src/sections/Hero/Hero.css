@@ -16,14 +16,14 @@
 .home-social {
     display: grid;
     grid-template-columns: max-content;
-    row-gap: 1.5rem;
-    margin-bottom: var(--mb-3-5);
+    row-gap: 1.9rem;
+    margin-bottom: var(--mb-2);
 }
 
 .home-social-icon {
     font-size: 1.5rem;
     margin: 5px;
-    color: var(--title-color);
+    color: rgb(100, 100, 100);
 }
 
 .home-social-icon:hover {

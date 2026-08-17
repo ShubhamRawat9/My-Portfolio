@@ -85,7 +85,6 @@
     .work-container {
         grid-template-columns: 1fr;
         width: 100%;
-        padding-right: 2rem;
         gap: 2rem;
         box-sizing: border-box;
     }
