@@ -37,7 +37,7 @@ export default function Navbar() {
                             </li>
 
                             <li className="nav-item">
-                                <a href="#Services" className="nav-link">
+                                <a href="#services" className="nav-link">
                                     <i className="uil uil-briefcase-alt nav-icon" />
                                     Services
                                 </a>

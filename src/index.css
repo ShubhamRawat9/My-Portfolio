@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
+html, body {
+  overflow-x: hidden;
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -234,19 +238,19 @@ img {
   background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
-  border-radius: 1re;
+  border-radius: 1rem;
   font-weight: var(--font-medium);
 }
 
-.botton:hover {
+.button:hover {
   background-color: var(--title-color-dark);
 }
 
-.botton-icon {
+.button-icon {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex {
+.button-flex {
   display: inline-flex;
   align-items: center;
 }

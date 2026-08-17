@@ -1,25 +1,24 @@
-import { socialLinks } from "../../data/socialLinks";
+import { socialLinks } from "../../data/SocialLinks";
 import "./SocialLinks.css";
 
-export default function SocialLinks() {
+export default function SocialLinks({ className = "" }) {
   return (
-    <div className="home-social">
+    <>
       {socialLinks.map((social) => {
         const Icon = social.icon;
 
         return (
           <a
-            className="home-social-icon"
+            className={`home-social-icon ${className}`}
             key={social.id}
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon />
+            <Icon className={`icon ${className}`} />
           </a>
         );
       })}
-    </div>
+    </>
   );
 }
-

@@ -5,7 +5,6 @@ import Footer from './components/Footer/Footer'
 import Home from './Pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

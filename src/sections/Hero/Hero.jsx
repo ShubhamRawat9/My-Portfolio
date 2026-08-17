@@ -1,4 +1,3 @@
-import React from 'react'
 import SocialLinks from '../../components/SocialLinks/SocialLinks'
 import ScrollDown from "./ScrollDown"
 import Data from "./Data"
@@ -10,14 +9,16 @@ export default function Hero() {
       <section className="home section" id="home">
         <div className="home-container container">
           <div className="home-content grid">
-            <SocialLinks />
+            <div className="home-social">
+              <SocialLinks />
+            </div>
 
             <div className="home-img"></div>
 
             <Data />
 
           </div>
-          
+
           <ScrollDown />
         </div>
       </section>

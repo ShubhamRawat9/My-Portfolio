@@ -25,7 +25,7 @@ export default function About() {
                             continuous learning.
                         </p>
 
-                        <a download="" href={CV} className="button button--flex">
+                        <a download="" href={CV} className="button button-flex">
                             Download CV
                             <svg
                                 className="button-icon"

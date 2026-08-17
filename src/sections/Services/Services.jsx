@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Service.css";
+import "./Services.css";
 
 import {
   ArrowRightStroke,

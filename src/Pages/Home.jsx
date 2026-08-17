@@ -1,10 +1,10 @@
 import Hero from "../sections/Hero/Hero.jsx";
-import About from '../sections/About/About.jsx';
-import Skills from '../sections/Skills/Skills';
-import Service from "../sections/Services/Service.jsx";
-import Qualification from "../sections/Qualification/Qualification.jsx";
 import Work from "../sections/Works/Work.jsx";
+import Skills from '../sections/Skills/Skills';
+import About from '../sections/About/About.jsx';
 import Contact from '../sections/Contact/Contact';
+import Services from "../sections/Services/Services.jsx";
+import Qualification from "../sections/Qualification/Qualification.jsx";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         <About />
         <Skills />
-        <Service />
+        <Services />
         <Qualification />
         <Work />
         <Contact />
