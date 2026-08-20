@@ -1,5 +1,5 @@
-import React from 'react'
 import { ArrowRightStroke } from "@boxicons/react";
+import React from 'react'
 
 export default function WorkItems({ item }) {
   return (
@@ -10,7 +10,7 @@ export default function WorkItems({ item }) {
         <div>
 
         </div>
-        <a href="#" className="work-button">
+        <a href="https://github.com/ShubhamRawat9?tab=repositories" className="work-button">
           Demo <ArrowRightStroke className="work-button-icon" />
         </a>
       </div>

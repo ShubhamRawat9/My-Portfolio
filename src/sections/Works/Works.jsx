@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
 import { projectsData, projectsNav } from "../../data/works.js";
+import { useState, useEffect } from 'react'
 import WorkItems from './WorkItems.jsx';
 
 export default function Works() {

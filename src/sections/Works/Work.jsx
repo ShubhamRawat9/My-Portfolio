@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import "./Work.css";
+import { useEffect } from 'react';
 import Works from "./Works.jsx"
+import "./Work.css";
 
 export default function Work() {
     
