@@ -264,7 +264,3 @@ This project is intended for personal portfolio and educational purposes. You ma
 **Shubham Rawat**
 
 This portfolio was created to showcase projects, technical skills, education, services, and professional experience.
-
----
-
-⭐ If you find this project useful or inspiring, consider giving the repository a star!
